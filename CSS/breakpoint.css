@@ -110,11 +110,22 @@
 
 @media (max-width: 462px) {
   .home {
-    background: url(./imgs/about.png);
-    background-position: center;
-    width: 100;
-    height: 80%;
+    background-image: url(./imgs/m5.jpg);
+    margin-bottom: 2.5rem;
+    background-size: cover;
   }
+  .home .socials {
+    margin-bottom: 36%;
+    position: absolute;
+    padding: 2rem 0 0.5rem;
+  }
+
+  .home .btn {
+    margin-top: 9%;
+    position: absolute;
+    font-size: 18px;
+  }
+
   .home-content h1 {
     font-size: 5.2rem;
   }
@@ -140,6 +151,8 @@
 @media (max-width: 371px) {
   .home {
     justify-content: center;
+    background-image: url(./imgs/m5.jpg);
+    margin-bottom: 2.5rem;
   }
 
   .home-content {
