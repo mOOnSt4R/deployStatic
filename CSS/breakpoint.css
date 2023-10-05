@@ -135,17 +135,19 @@
   .home {
     background: url(./imgs/m5.jpg);
     background-size: cover;
-    justify-content: left;
-    align-items: left;
   }
 
   .home-content {
     display: flex;
-    align-items: center;
+    align-items: left;
     flex-direction: column;
   }
 
   .home-content h1 {
     font-size: 5rem;
+  }
+
+  .home .btn-bx btn {
+    align-items: left;
   }
 }
